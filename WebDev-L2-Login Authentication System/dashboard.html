@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - My Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+
+        <header class="dashboard-header">
+            <div>
+                <h1>Dashboard</h1>
+                <p>Welcome to your account.</p>
+            </div>
+
+            <button id="logoutBtn" class="logout-btn">
+                Logout
+            </button>
+        </header>
+
+        <section class="welcome-card">
+
+            <div class="welcome-content">
+                <span class="welcome-label">You are logged in</span>
+
+                <h2>Hello, <span id="dashboardUsername"></span>!</h2>
+
+                <p>
+                    This is a protected page. You can only see this page
+                    after successfully logging in.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="info-grid">
+
+            <div class="info-card">
+                <h3>Account Status</h3>
+                <p>Active</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Authentication</h3>
+                <p>Logged In</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Security</h3>
+                <p>Password Hashing Enabled</p>
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

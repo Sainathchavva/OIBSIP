@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calculator">
+    <div class="display">
+      <!-- shows the running expression, e.g. "5 + 3" -->
+      <div class="expression" id="expression"></div>
+      <!-- shows what the user is currently typing / the result -->
+      <div class="current" id="current">0</div>
+    </div>
+
+    <div class="buttons">
+      <button class="clear" id="clear">C</button>
+      <button class="backspace" id="backspace">⌫</button>
+      <button class="operator" data-op="÷">÷</button>
+      <button class="operator" data-op="×">×</button>
+
+      <button class="number" data-num="7">7</button>
+      <button class="number" data-num="8">8</button>
+      <button class="number" data-num="9">9</button>
+      <button class="operator" data-op="−">−</button>
+
+      <button class="number" data-num="4">4</button>
+      <button class="number" data-num="5">5</button>
+      <button class="number" data-num="6">6</button>
+      <button class="operator" data-op="+">+</button>
+
+      <button class="number" data-num="1">1</button>
+      <button class="number" data-num="2">2</button>
+      <button class="number" data-num="3">3</button>
+      <button class="number" data-num=".">.</button>
+
+      <button class="number zero" data-num="0">0</button>
+      <button class="equals" id="equals">=</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
