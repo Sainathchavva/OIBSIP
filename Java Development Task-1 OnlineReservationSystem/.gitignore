@@ -1,0 +1,15 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven
+target/
+
+# SQLite database
+reservation.db
+
+# Java compiled files
+*.class
+
+# Logs
+*.log

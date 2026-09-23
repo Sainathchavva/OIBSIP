@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FA"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- App Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unit Converter"
+            android:textAlignment="center"
+            android:textColor="#1F2937"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Convert common units quickly and easily"
+            android:textAlignment="center"
+            android:textColor="#6B7280"
+            android:textSize="14sp"
+            android:layout_marginBottom="28dp" />
+
+        <!-- Category Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measurement Category"
+            android:textColor="#374151"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Category Spinner -->
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="#FFFFFF"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Input Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Value"
+            android:textColor="#374151"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Input Field -->
+        <EditText
+            android:id="@+id/inputValue"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="#FFFFFF"
+            android:hint="Enter a number"
+            android:inputType="numberDecimal|numberSigned"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="#111827"
+            android:textColorHint="#9CA3AF"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- From Unit Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From Unit"
+            android:textColor="#374151"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Source Unit Spinner -->
+        <Spinner
+            android:id="@+id/fromSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="#FFFFFF"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- To Unit Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To Unit"
+            android:textColor="#374151"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Target Unit Spinner -->
+        <Spinner
+            android:id="@+id/toSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="#FFFFFF"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="28dp" />
+
+        <!-- Convert Button -->
+        <Button
+            android:id="@+id/convertButton"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="CONVERT"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2563EB"
+            android:layout_marginBottom="28dp" />
+
+        <!-- Result Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textColor="#374151"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Result -->
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="70dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Your result will appear here"
+            android:textColor="#111827"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="#FFFFFF" />
+
+    </LinearLayout>
+
+</ScrollView>

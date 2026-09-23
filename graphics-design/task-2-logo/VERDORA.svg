@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+<defs>
+ <linearGradient id="vgrad" x1="0" y1="1" x2="1" y2="0">
+  <stop offset="0" stop-color="#0645C8"/>
+  <stop offset=".5" stop-color="#08A8D8"/>
+  <stop offset="1" stop-color="#18E38A"/>
+ </linearGradient>
+</defs>
+<g fill="url(#vgrad)">
+ <path d="M210 230 C300 225 365 270 405 360 L520 640 C540 690 510 735 465 755 C425 770 390 745 370 700 L250 405 C225 350 205 285 210 230Z"/>
+ <path d="M525 690 C525 520 555 330 710 215 C770 170 835 145 875 140 C875 255 835 345 755 395 C675 445 610 505 590 610Z"/>
+ <path d="M595 675 C635 590 700 535 795 515 C775 600 730 660 650 695Z"/>
+</g>
+<path d="M610 505 C655 425 705 350 805 275" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+<text x="500" y="850" text-anchor="middle" font-family="Poppins, Montserrat, Arial, sans-serif" font-size="104" font-weight="700" letter-spacing="12" fill="#0F172A">VERDORA</text>
+<text x="500" y="920" text-anchor="middle" font-family="Poppins, Montserrat, Arial, sans-serif" font-size="25" letter-spacing="7" fill="#334155">TECHNOLOGY FOR A BRIGHTER YOU</text>
+</svg>

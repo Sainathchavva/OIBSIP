@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Main Background -->
+    <color name="background">#0B0D0F</color>
+
+    <!-- Timer Card -->
+    <color name="time_background">#15191D</color>
+
+    <!-- General Buttons -->
+    <color name="button_background">#24292E</color>
+    <color name="button_disabled">#171A1D</color>
+    <color name="button_pressed">#454B52</color>
+
+    <!-- Start Button -->
+    <color name="start_color">#19A463</color>
+    <color name="start_pressed">#147A4A</color>
+
+    <!-- Pause Button -->
+    <color name="pause_color">#D98B19</color>
+    <color name="pause_pressed">#A96912</color>
+
+    <!-- Reset Button -->
+    <color name="reset_color">#D94A4A</color>
+    <color name="reset_pressed">#A83838</color>
+
+    <!-- Lap Button -->
+    <color name="lap_color">#24292E</color>
+    <color name="lap_pressed">#343A40</color>
+
+    <!-- Lap Item -->
+    <color name="lap_background">#171B1F</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8E979F</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

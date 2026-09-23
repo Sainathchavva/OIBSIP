@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Stopwatch</string>
+
+    <string name="default_time">00:00:00</string>
+
+    <string name="status_ready">Ready</string>
+    <string name="status_running">Running</string>
+    <string name="status_paused">Paused</string>
+
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="lap">Lap</string>
+
+    <string name="laps">Laps</string>
+    <string name="lap_count_zero">0 laps</string>
+    <string name="lap_count">%1$d laps</string>
+
+</resources>
